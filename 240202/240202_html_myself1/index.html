@@ -1,0 +1,30 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css"> <!-- 외부 CSS 파일 연결 -->
+</head>
+<body>
+
+<ul>
+    <li onclick="moveDown()">Item 1</li>
+    <li onclick="moveDown()">Item 2</li>
+    <li onclick="moveDown()">Item 3</li>
+    <li onclick="moveDown()">Item 4</li>
+    <li onclick="moveDown()">Item 5</li>
+    <li onclick="moveDown()">Item 6</li>
+    <li onclick="moveDown()">Item 7</li>
+</ul>
+
+<script>
+    function moveDown() {
+        const clickedLi = event.target;
+        clickedLi.style.transform = 'translateY(100px)';
+    }
+</script>
+
+</body>
+</html>

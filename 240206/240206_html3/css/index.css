@@ -1,0 +1,269 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.layout {
+    position: absolute;
+}
+.box0 {
+    width: 30rem;
+    height: 30rem;
+    border: none;
+    border-radius: 5rem;
+    background: grey;
+    top: 1rem;
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 20rem;
+    text-indent: 1rem;
+}
+.pic {
+    position: relative;
+    top: -8rem;
+    left: 1rem;
+    text-align: center;
+    text-indent: 0rem;
+    line-height: 6rem;
+    width: 8rem;
+    font-family: "Song Myung", serif;
+}
+.pic2 {
+    position: absolute;
+    top: 19rem;
+    left: 1rem;
+    text-align: center;
+    text-indent: 0rem;
+    line-height: 6rem;
+    width: 8rem;
+    font-family: "Song Myung", serif;
+}
+.box1 {
+    position: absolute;
+    width: 40rem;
+    height: 28rem;
+    background: rgb(255, 255, 255);
+    top: 0rem;
+    left: 10rem;
+    padding: 1rem;
+    font-family: "Song Myung", serif;
+    text-align: left;
+}
+
+/* 여기까지  */
+
+.main0 {
+    position: absolute;
+    background: wheat;
+    width: 20rem;
+    height: 50rem;
+    border: 0rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.main1 {
+    position: absolute;
+    background: burlywood;
+    width: 110rem;
+    height: 50rem;
+    top: 0.5rem;
+    left: 11rem;
+}
+
+/* 레프트 박스 */
+
+.left {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border: 0.1rem solid black;
+    width: 12rem;
+    height: 25rem;
+    top: 5rem;
+    left: -7rem;
+    text-align: center;
+}
+.img {
+    background: rgb(255, 255, 255);
+    border: 0.1rem solid black;
+    width: 8rem;
+    height: 8rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.text1 {
+    background: none;
+    border: 0rem solid black;
+    font-size: 1rem;
+}
+.text2 {
+    background: wheat;
+    border: 0rem solid black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+.text3 {
+    background: none;
+    border: 0rem solid black;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: -1.5rem;
+    height: 5rem;
+}
+.text4 {
+    margin-bottom: -0.1rem;
+    font-size: 1.2rem;
+}
+.left table {
+    margin: auto;
+}
+.left tr td {
+    background: none;
+    border: 0rem solid black;
+    width: 2rem;
+}
+.left tr td img:hover {
+    cursor: pointer;
+}
+
+/* 라이트 박스 */
+
+.right {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border: 0.1rem solid black;
+    width: 30rem;
+    height: 25rem;
+    top: 5rem;
+    left: 5rem;
+    text-align: left;
+    text-indent: 1rem;
+    line-height: 2rem;
+    color: dimgray;
+}
+.right div:hover {
+    background-color: gray;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* 바텀 박스 */
+
+.bottom {
+    position: relative;
+    background: rgb(255, 255, 255);
+    border-top: 0.1rem solid black;
+    width: 70rem;
+    height: 40rem;
+    top: 5rem;
+    left: 35rem;
+    text-align: left;
+    text-indent: 1rem;
+    line-height: 2rem;
+    color: rgb(145, 50, 50);
+}
+.bottom p:hover {
+    background-color: gray;
+}
+.bottom p:first-child {
+    color: tomato;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: none;
+}
+
+.bottom5 {
+    width: 100%;
+    height: 100%;
+    border: 0.1rem dotted lightsalmon;
+}
+.bottom_low {
+    display: none;
+}
+
+
+
+
+.bottom5 p {
+    border: 0.1rem dotted lightsalmon;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.bottom5_menu {
+    border: 0.1rem dotted lightsalmon;
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bottom5_menu li {
+    border: 0.1rem dotted lightsalmon;
+    cursor: pointer;
+}
+
+.bottom5_box {
+    border: 0.1rem dotted lightsalmon;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom5_small {
+    width: 20%;
+    border: 0.1rem dotted lightsalmon;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bottom5_small li {
+    width: 120%;
+    height: 15%;
+    border: 0.1rem dotted lightskyblue;
+    margin: auto;
+}
+
+.bottom5_small li img {
+    height: 100%;
+}
+
+.bottom5_big {
+    width: 80%;
+    border: 0.1rem dotted lightsalmon;
+}
+
+.bottom5_big img {
+    height: 100%;
+}
+
+.menu {
+    position: absolute;
+    display: none;
+    width: 42rem;
+    height: 15rem;
+}
+#menu1 {
+    background: url(img/004.jpg);
+    background-size: 100%;
+}
+
+#menu2 {
+    background: url(img/004.jpg) no-repeat right bottom;
+    background-size: 50%;
+}

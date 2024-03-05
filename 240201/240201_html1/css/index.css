@@ -1,0 +1,269 @@
+* {
+    background-color: khaki;
+}
+
+body {
+    padding: 2rem;
+    border: 0.1rem dotted orange;
+}
+
+.line {
+    border-top: 0.1rem solid black;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.title {
+    border: 0rem solid black;
+    width: 100%;
+    height: 5rem;
+    background: rgb(15, 65, 121);
+    line-height: 5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* 텍스트박스항목 */
+
+.textbox1 {
+    margin-top: 1rem;
+    border: 0.1rem solid black;
+    width: 50%;
+    height: 3rem;
+    background: none;
+    color: rgb(15, 65, 121);
+    font-weight: 600;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+.textbox2 {
+    margin-top: 0rem;
+    border: 0.1rem solid black;
+    width: 95%;
+    height: 2rem;
+    background: none;
+    margin: 1rem;
+    color: rgb(29, 119, 203);
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+/* 메뉴항목 */
+
+.menu {
+    margin: auto;
+    border: 0.1rem dotted red;
+    padding: 2rem;
+    width: 70rem;
+    height: 50rem;
+}
+
+/* 왼쪽메뉴항목 */
+
+.left {
+    border: 0.1rem solid black;
+    width: 20rem;
+    height: 18rem;
+    margin-right: 2rem;
+    float: left;
+    padding-top: 2rem;
+}
+
+.left p {
+    width: 18rem;
+    height: 2.5rem;
+    border: 0.1rem dotted green;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
+}
+
+.left p:hover {
+    cursor: pointer;
+    background-color: rgb(99, 136, 99);
+}
+
+/* 중앙메뉴항목 */
+
+.center {
+    border: 0.1rem solid black;
+    width: 24rem;
+    height: 18rem;
+    float: left;
+    margin-right: 2rem;
+    padding-top: 2rem;
+}
+
+/* 오른쪽메뉴항목 */
+
+.right {
+    border: 0.1rem solid black;
+    width: 20rem;
+    height: 20rem;
+    float: left;
+    display: block;
+}
+
+.content {
+    display: none;
+}
+
+.content_title {
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    border: 1px dotted red;
+    margin: 1rem auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content_title p {
+    border: 0.1rem dotted green;
+    border-radius: 1rem;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 0.7rem;
+}
+
+.content_title p:hover {
+    cursor: pointer;
+    background: darkolivegreen;
+}
+
+.content2_title p {
+    height: 1rem;
+    line-height: 1rem;
+}
+
+.content_box {
+    width: 90%;
+    height: 12rem;
+    border: 0.1rem dotted green;
+    margin: auto;
+    display: flex;
+}
+
+.content_box div {
+    border: 0.1rem dotted olive;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.content_box div:first-child {
+    width: 70%;
+}
+
+.content_box img {
+    height: 7rem;
+}
+
+.content_box div:last-child {
+    width: 30%;
+}
+
+.content_box p {
+    border: 0.1rem dotted olive;
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.5rem;
+    line-height: 2.5rem;
+}
+
+.content3_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content3_box div {
+    width: 4rem;
+    height: 2rem;
+    border: 0.1rem dotted darkorange;
+    border-radius: 5rem;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 2rem;
+    flex-wrap: wrap;
+}
+
+.content3_box div:hover {
+    cursor: pointer;
+    background: rgb(156, 113, 31);
+}
+
+.content3_img {
+    width: 80%;
+    height: 10rem;
+    border: 0.1rem dotted darkorange;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.content3_img img {
+    margin: auto;
+    width: 70%;
+}
+
+.content3_img p {
+    margin: auto;
+    border: 0.1rem dotted darkorange;
+}
+
+/* 하단메뉴항목 */
+
+.bottom {
+    border: 0.1rem solid rgb(182, 58, 58);
+    position: absolute;
+    width: 68.5rem;
+    height: 20rem;
+    top: 41rem;
+}
+
+.bottom div {
+    display: none;
+}
+
+.mod_class {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 2rem;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.icon_text {
+    border: 0.1rem solid rgb(182, 58, 58);
+    width: 30%;
+    height: auto;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+}
+
+.fa-solid {
+    font-size: 2rem;
+    border: 0.1rem solid rgb(182, 58, 58);
+}
+
+.fa-cloud {
+    font-size: 10rem;
+    border: 0.1rem solid rgb(182, 58, 58);
+}

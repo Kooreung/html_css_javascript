@@ -1,0 +1,16 @@
+/* styles.css */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}

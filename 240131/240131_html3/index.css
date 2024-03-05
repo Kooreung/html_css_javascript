@@ -1,0 +1,30 @@
+* {
+    background-color: khaki;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Black Han Sans', sans-serif;
+}
+div {
+    width: 10rem;
+    height: 5rem;
+    line-height: 5rem;
+    border: 0.1rem solid black;
+    font-family: 'Song Myung', serif;
+    position:fixed;
+}
+.red {
+    background-color: red;
+    top: 10rem;
+}
+.blue {
+    background-color: blue;
+    top: 5rem; left: 5rem;
+}
+.green {
+    background-color: green;
+}
+
+/* position : 위치 지정 가능 */
+    /* absolute, relative, fixed */
+    /* top, left, right, bottom 사용 가능 */
+/* <z-index> 숫자가 클 수록 위로 올라오는 z값 */

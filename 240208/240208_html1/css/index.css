@@ -1,0 +1,434 @@
+@font-face {
+    font-family: "yg-jalnan";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "JalnanGothic";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 0rem dotted red;
+    margin: 0;
+    background-color: #faaca8;
+    background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+}
+
+/* 헤더 내용 */
+
+#header {
+    width: 95%;
+    height: 215px;
+    border: 0rem dotted red;
+    background: none;
+
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 3;
+}
+
+.align {
+    width: 100%;
+    height: 75px;
+}
+
+#title {
+    width: 50%;
+    height: 100px;
+    border: 0rem dotted red;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.25);
+
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-family: "JalnanGothic";
+    font-size: 1.25rem;
+}
+
+#title:hover {
+    cursor: pointer;
+}
+
+#title p {
+    margin: 0;
+}
+
+#title p:nth-child(1) {
+    margin-top: 0.5rem;
+}
+#title p:nth-child(2) {
+    margin-top: 0.5rem;
+    font-size: 2.25rem;
+}
+
+#headerNav_main {
+    width: 30%;
+    height: 50px;
+    border: 0rem dotted red;
+
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+
+    font-family: "yg-jalnan";
+    font-size: 1rem;
+}
+
+.headerNav {
+    width: 30%;
+    height: 50px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.headerNavTitle {
+    border: 0rem dotted red;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 3;
+}
+.headerNavTitle:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.headerNav > ul {
+    width: 75%;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0rem dotted red;
+}
+.headerNav1_doc {
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    z-index: 1;
+}
+.headerNav2_doc {
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    z-index: 1;
+}
+
+#headerNav1_ID {
+    position: absolute;
+    top: -175px;
+    left: 20px;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    z-index: 0;
+
+    background: rgba(253, 245, 230, 0.9);
+}
+#headerNav2_ID {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    display: none;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+    background: rgba(253, 245, 230, 0.9);
+}
+
+/* 메인 내용 */
+
+#main {
+    width: 95%;
+    min-height: 700px;
+    height: 1400px;
+    border: 0.1rem dotted orange;
+    background: rgba(255, 250, 250, 0.1);
+
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "yg-jalnan";
+}
+
+#banner {
+    width: 80%;
+    height: 200px;
+    border: 0.1rem dotted orange;
+    margin-top: 25px;
+}
+
+.bannerImg {
+    border: 0.1rem dotted orange;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerImg > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#sectionNull {
+    width: 60%;
+    height: 850px;
+    border: 0rem dotted orange;
+    margin-top: 25px;
+}
+
+/* 로비섹션 내용 */
+
+#mainSection {
+    width: 60%;
+    height: 1150px;
+    border: 0.4rem dotted orange;
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mainSource_text {
+    font-size: 1.2rem;
+}
+
+#mainSource1 {
+    width: 100%;
+    height: 400px;
+    border: 0.1rem dotted orange;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#mainSource1_img {
+    width: 30%;
+    height: 100%;
+    border: 0.1rem dotted orange;
+}
+
+#mainSource1_img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#mainSource1_text {
+    width: 70%;
+    height: 100%;
+    border: 0.1rem dotted orange;
+}
+
+#mainSource1_text > ul {
+    border: 0.1rem dotted orange;
+    margin-top: 25px;
+}
+
+#mainSource1_text > ul > li {
+    margin: 2rem;
+    list-style: none;
+}
+
+#mainSource2 {
+    width: 100%;
+    height: 400px;
+    border: 0.1rem dotted orange;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+}
+
+#mainSource2_text {
+    width: 70%;
+    height: 100%;
+    border: 0.1rem dotted orange;
+}
+
+#mainSource2_text > ul {
+    border: 0.1rem dotted orange;
+    margin-top: 25px;
+}
+
+#mainSource2_text > ul > li {
+    margin: 2rem;
+    list-style: none;
+    text-align: right;
+}
+#mainSource2_text > ul > li:nth-last-child(1) {
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+#mainSource2_img {
+    width: 30%;
+    height: 100%;
+    border: 0.1rem dotted orange;
+}
+
+#mainSource2_img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 화각의 차이 내용 */
+
+#fovSection {
+    width: 60%;
+    height: 1150px;
+    border: 0.4rem dotted rgb(0, 255, 85);
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 250px;
+}
+
+.fov {
+    width: 80%;
+    height: 140px;
+    border: 0.1rem dotted rgb(0, 255, 85);
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.fov:hover {
+    cursor: pointer;
+}
+
+.fovImg {
+    border: 0.1rem dotted blueviolet;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.fovImg > img {
+    height: 100%;
+}
+
+.fovText {
+    border: 0.1rem dotted blueviolet;
+    width: 75%;
+    margin: 0;
+}
+
+.fovText > ul {
+    list-style: none;
+}
+
+.fovText > ul > li:nth-child(1) {
+    font-size: 1.2rem;
+}
+
+.fovText > ul > li:nth-last-child(1) {
+    text-align: right;
+    margin-right: 50px;
+    color: gray;
+}
+
+/* 조리개 차이 내용 */
+
+#apSection {
+    width: 60%;
+    height: 1150px;
+    border: 0.4rem dotted rgb(0, 255, 85);
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 250px;
+}
+
+.ap {
+    width: 80%;
+    height: 140px;
+    border: 0.1rem dotted rgb(0, 255, 85);
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.ap:hover {
+    cursor: pointer;
+}
+
+.apImg {
+    border: 0.1rem dotted blueviolet;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.apImg > img {
+    height: 100%;
+}
+
+.apText {
+    border: 0.1rem dotted blueviolet;
+    width: 75%;
+    margin: 0;
+}
+
+.apText > ul {
+    list-style: none;
+}
+
+.apText > ul > li:nth-child(1) {
+    font-size: 1.2rem;
+}
+
+.apText > ul > li:nth-last-child(1) {
+    text-align: right;
+    margin-right: 50px;
+    color: gray;
+}
+
+/* 풋터 내용 */
+
+#footer {
+    width: 95%;
+    height: 310px;
+    border: 0.1rem dotted orangered;
+    background: lightgray;
+
+    margin: 0 auto;
+    margin-top: 50px;
+}

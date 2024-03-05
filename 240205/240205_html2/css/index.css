@@ -1,0 +1,10 @@
+.box li {
+  width: 10rem;
+  height: 3rem;
+  border: 0.1rem dotted lightseagreen;
+
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+  list-style-type: none;
+}

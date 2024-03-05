@@ -1,0 +1,59 @@
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    padding: 2rem;
+    border: 0rem dotted rgb(255, 0, 0);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+body .line{
+    width: 100rem;
+    border-bottom: 0.125rem solid lightgrey;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.top {
+    width: 70rem; height: 8rem;
+    background-color: lightblue;
+    border-radius: 1rem;
+    margin: auto;
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 8rem;
+}
+
+.main {
+    width: 68rem;
+    border: 0.1rem dotted rgb(255, 0, 0);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main_category {
+    width: 20rem; height: 20rem;
+    border: 0.1rem solid black;
+    margin: auto;
+}
+
+.main_category:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+.main_category4, .main_category5, .main_category6 {
+    margin-top: 2rem;
+}
+

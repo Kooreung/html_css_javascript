@@ -1,0 +1,14 @@
+* {
+    background: lightblue;
+}
+
+.list_box {
+    border: 0.1rem dotted red;
+}
+
+.list_box li {
+    width: 10rem; height: 3rem;
+    border: 0.1rem dotted red;
+
+    list-style: none;
+}

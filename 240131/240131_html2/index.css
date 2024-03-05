@@ -1,0 +1,106 @@
+.title {
+    background: black;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    margin-bottom: -1%;
+}
+.notice {
+    background: skyblue;
+    width: auto;
+    height: 4rem;
+    border: none;
+    border-radius: 2rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-indent: 3rem;
+}
+.underline {
+    border: 0.1rem solid black;
+    margin-top: -1rem;
+}
+.tabletop {
+    border: 0.2rem solid gray;
+    margin-bottom: 0.5rem;
+    height: 3rem;
+}
+.tablebox {
+    width: 50rem;
+    height: 3rem;
+    margin: auto;
+}
+.tablebox tr th {
+    border: 0.1rem solid black;
+    text-align: center;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+.tablebox tr th:hover {
+    border: 0.1rem solid black;
+    text-align: center;
+    font-size: 1.0rem;
+    cursor: pointer;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.mainbox {
+    width: 60rem;
+    margin: auto;
+    text-align: center;
+}
+.mainbox tr th {
+    height: 3rem;
+    border: 0.15rem solid rgb(187, 187, 187);
+    background: gray;
+}
+.mainbox tr td {
+    background: rgb(199, 199, 199)55, 255, 255;
+    height: 2rem;
+    border-bottom: 0.1rem solid rgb(185, 185, 185);
+}
+.mainbox tr:not(:first-child):hover {
+    background: gainsboro;
+    cursor: pointer;
+    font-weight: bold;
+}
+.mainbox tr th:nth-child(1){
+    width: 3rem;
+}
+.mainbox tr th:nth-child(2){
+    width: 5rem;
+}
+.mainbox tr th:nth-child(3){
+    width: 15rem;
+}
+.mainbox tr th:nth-child(4){
+    width: 3rem;
+}
+.mainbox tr td:nth-child(3){
+    text-align: left;
+    text-indent: 1rem;
+}
+.pagenumber {
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+.pagenumber tr td {
+    border: 0rem solid black;
+    width: 1.5rem;
+}
+.pagenumber tr td:hover {
+    background: gainsboro;
+    cursor: pointer;
+    color: darkcyan;
+    font-weight: bold;
+}
+.pagenumber tr td:first-child,
+.pagenumber tr td:last-child:hover {
+    background: none;
+}
+

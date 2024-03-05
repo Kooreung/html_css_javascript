@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/q3.css" />
+        <title>Document</title>
+        <script src="js/jquery.3.7.1.js"></script>
+        <script src="js/q3.js"></script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            nav {
+                width: 500px;
+                height: 200px;
+                border: 1px solid red;
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            nav > .button {
+                width: 100px;
+                height: 25px;
+            }
+
+            .button > input {
+                width: 100px;
+                height: 25px;
+            }
+
+            #textbox {
+                width: 500px;
+                height: 250px;
+                border: 1px solid red;
+                margin-top: 10px;
+                position: relative;
+                top: 0;
+                left: 0;
+            }
+
+            #text0 {
+                width: 500px;
+                height: 250px;
+                border: 1px solid red;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+            }
+            #text1 {
+                width: 500px;
+                height: 250px;
+                border: 1px solid red;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+            }
+            #text2 {
+                width: 500px;
+                height: 250px;
+                border: 1px solid red;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+            }
+        </style>
+        <script>
+            const button0 = document.getElementById("button0");
+            const button1 = document.getElementById("button1");
+            const button2 = document.getElementById("button2");
+            const text0 = document.getElementById("text0");
+            const text1 = document.getElementById("text1");
+            const text2 = document.getElementById("text2");
+
+            button0.addEventListener("click", function () {
+                text0.style.display = "block";
+            });
+        </script>
+    </head>
+    <body>
+        <nav id="buttonNav">
+            <div class="button">
+                <input
+                    type="button"
+                    name="button0"
+                    id="button0"
+                    value="버튼0"
+                />
+            </div>
+            <div class="button">
+                <input
+                    type="button"
+                    name="button1"
+                    id="button1"
+                    value="버튼1"
+                />
+            </div>
+            <div class="button">
+                <input
+                    type="button"
+                    name="button2"
+                    id="button2"
+                    value="버튼2"
+                />
+            </div>
+        </nav>
+        <div id="textbox">
+            <div class="text" id="text0">111</div>
+            <div class="text" id="text1">222</div>
+            <div class="text" id="text2">333</div>
+        </div>
+    </body>
+</html>
