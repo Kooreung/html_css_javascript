@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/index.css" />
+        <title>Document</title>
+        <script src="js/jquery.3.7.1.js"></script>
+        <script src="js/index.js"></script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            section {
+                width: 1000px;
+                height: 400px;
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .box {
+                width: 300px;
+                height: 200px;
+                border: 1px solid red;
+            }
+
+            .box_img {
+                width: 300px;
+                height: 150px;
+                border: 1px dotted red;
+
+                display: flex;
+                align-items: center;
+
+                clip-path: inset(0);
+            }
+
+            .box_img > img {
+                width: 100%;
+            }
+
+            .box_text {
+                width: 300px;
+                height: 50px;
+                border: 1px dotted red;
+                text-align: center;
+                line-height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="box" id="box0">
+                <div class="box_img" id="box0_img">
+                    <img src="img/img0.jpg" alt="" />
+                </div>
+                <div class="box_text" id="box0_text">사진 0번 텍스트</div>
+            </div>
+            <div class="box" id="box1">
+                <div class="box_img" id="box1_img">
+                    <img src="img/img1.jpg" alt="" />
+                </div>
+                <div class="box_text" id="box1_text">사진 1번 텍스트</div>
+            </div>
+            <div class="box" id="box2">
+                <div class="box_img" id="box2_img">
+                    <img src="img/img2.jpg" alt="" />
+                </div>
+                <div class="box_text" id="box2_text">사진 2번 텍스트</div>
+            </div>
+        </section>
+    </body>
+</html>
