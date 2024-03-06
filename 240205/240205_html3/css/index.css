@@ -1,0 +1,140 @@
+/* 상단 메뉴 */
+
+.menu {
+  width: 90%;
+  height: 5rem;
+  border: 0.1rem dotted lightpink;
+
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li {
+  width: 8rem;
+  height: 2rem;
+  border: 0.1rem dotted lightpink;
+  border-radius: 1rem;
+
+  text-align: center;
+  line-height: 2rem;
+}
+
+/* 세션 */
+
+section {
+  width: 100%;
+  height: 40rem;
+  border: 0.25rem dotted lightcoral;
+  display: flex;
+}
+
+section div {
+  border: 0.1rem dotted lightcoral;
+}
+
+/* 왼쪽 박스 */
+
+.left {
+  width: 10%;
+  height: 100%;
+}
+
+.left div {
+  width: 100%;
+  height: 2rem;
+
+  border: 0.1rem dotted limegreen;
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+/* 오른쪽 박스 */
+
+.right {
+  width: 90%;
+  height: 100%;
+}
+
+.title {
+  width: 80%;
+  height: 10%;
+  border: 0.1rem dotted lightskyblue;
+
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 0rem;
+}
+
+.right .right_up {
+  width: 100%;
+  height: 20%;
+  border: 0.25rem dotted lightpink;
+}
+
+.right .right_down {
+  width: 100%;
+  height: 60%;
+  border: 0.25rem dotted limegreen;
+
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.right_down article {
+  width: 100%;
+  height: 2rem;
+  border: 0.1rem dotted limegreen;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.at0_box {
+  width: 5rem;
+  height: 5rem;
+  border: 0.1rem dotted cornflowerblue;
+  background: darkgray;
+  border-radius: 25%;
+
+  text-align: center;
+  line-height: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.at0_box0 {
+  top: 20%;
+  left: 20%;
+}
+.at0_box1 {
+  top: 20%;
+  left: 50%;
+}
+.at0_box2 {
+  top: 20%;
+  left: 80%;
+}
+.at0_box3 {
+  top: 50%;
+  left: 20%;
+}
+.at0_box4 {
+  top: 50%;
+  left: 50%;
+}
+.at0_box5 {
+  top: 50%;
+  left: 80%;
+}
