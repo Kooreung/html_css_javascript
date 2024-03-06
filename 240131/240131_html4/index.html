@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Song+Myung&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 
+    <div class="layout">
+        <div class="box0">
+            자기소개서
+            <div class="pic">
+                사진공간
+            </div>
+            <div class="pic2">
+                사진공간
+            </div>
+        </div>
+        <div class="box1">
+            어떤 내용이 들어갈지 이것저것 작성해보는 공간
+        </div>
+    </div>
+    -->
+    <div class="main0"></div>
+    <div class="main1">
+        <div class="left">
+            <div class="img">
+                <img src="img/01.jpg" height="100%">
+            </div>
+            <p class="text1">백엔드 전문가</p>
+            <p class="text2">고현진</p>
+            <p class="text3">Hyeonjin Go</p>
+            <p class="text4">SNS</p>
+            <table>
+                <tr>
+                    <td>
+                        <img src="img/001.png" width="100%">
+                    </td>
+                    <td>
+                        <img src="img/002.jpg" width="100%">
+                    </td>
+                    <td>
+                        <img src="img/003.png" width="100%">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="right">
+            <div class="menu1" onclick="func(1)">자기소개서</div>
+            <div class="menu2" onclick="func(2)">자격증</div>
+            <div class="menu3" onclick="func(3)">경력사항</div>
+            <div class="menu4" onclick="func(4)">하고싶은말</div>
+            <div class="menu5" onclick="func(5)">기타사항</div>
+        </div>
+        <script>
+                function func(js) {
+                    menu1.style.display="none"
+                    menu2.style.display="none"
+                    menu3.style.display="none"
+                    menu4.style.display="none"
+                    menu5.style.display="none"
+                    this["menu" + js].style.display="block";
+                }
+        </script>
+        <div class="bottom">
+            <div class="menu" id="menu1">
+                <p>자기소개서</p>
+                <p>저는 멍청이입니다.</p>
+            </div>
+            <div class="menu" id="menu2">
+                <p>자격증</p>
+                <p>운전면허증</p>
+            </div>
+            <div class="menu" id="menu3">
+                <p>경력사항</p>
+                <p>군대 다녀옴</p>
+            </div>
+            <div class="menu" id="menu4">
+                <p>하고싶은말</p>
+                <p>개꿀잼이다</p>
+            </div>
+            <div class="menu" id="menu5">
+                <p>기타사항</p>
+                <p>기타를 못친다</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
