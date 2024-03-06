@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "SejonghospitalBold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SejonghospitalBold.woff2")
+        format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    border: 0.1rem dotted lightcyan;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    width: 50%;
+    height: 50px;
+    border: 0.1rem dotted deepskyblue;
+    background: deepskyblue;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header > div {
+    width: 10%;
+    height: 100%;
+    background: skyblue;
+
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+header > div.selected {
+    background: orange;
+}
+
+.big {
+    text-align: center;
+}
+
+.pic {
+    width: 20%;
+}
+
+.text {
+    background: skyblue;
+}
+
+.menu {
+    width: 100px;
+    height: 50px;
+    border: 0.1rem dotted deepskyblue;
+    cursor: pointer;
+}
+
+nav {
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: -100px;
+}
+nav > div {
+    border: 0.1rem dotted deepskyblue;
+    margin-top: 10px;
+}
