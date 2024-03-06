@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "yg-jalnan";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "JalnanGothic";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header > #title {
+    width: 300px;
+    height: 100px;
+    border: 1px dotted red;
+    background-color: none;
+    padding: 20px;
+}
+
+#menuBar {
+    width: 700px;
+    height: 50px;
+    border: 0px dotted red;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu {
+    width: 100px;
+    height: 50px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menu:hover .menuTitle {
+    cursor: pointer;
+    border-bottom: 4px solid skyblue;
+}
+
+.menuTitle {
+    width: 100px;
+    height: 50px;
+    border: 0px solid rgba(255, 0, 0, 0);
+
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    transition: all 0.5s;
+}
+
+.menuList {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    max-height: 0;
+    transition: all 0.5s;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.menuList > li {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+
+.menuList > li:not(:last-child) {
+    border-bottom: 1px solid dimgray;
+}
+
+.menuTitle:hover + .menuList,
+.menuList:hover {
+    max-height: 200px;
+}
+
+.menuList > li:hover {
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+.menuList > li > a {
+    color: black;
+    display: block;
+}
+
+#sectionBg {
+    width: 100%;
+    height: 600px;
+    background: url(/240215_html1/img/autumn_0.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    clip-path: inset(0);
+    display: flex;
+    z-index: -1;
+}
+
+#sectionTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
