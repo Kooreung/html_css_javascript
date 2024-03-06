@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "yg-jalnan";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "JalnanGothic";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    background: purple;
+    color: white;
+}
+
+nav {
+    width: 80%;
+    height: 50px;
+    border: 0.1rem dotted lightgreen;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > div {
+    width: 150px;
+    height: 100%;
+    border: 0.1rem dotted lightgreen;
+}
+
+nav > div:hover {
+    background: gray;
+}
+
+section {
+    width: 80%;
+    height: 500px;
+    border: 0.1rem dotted lightgreen;
+    margin: 1rem auto;
+}
+
+section img {
+    height: 100%;
+}
+
+.pic_text {
+    width: 80%;
+    height: 50px;
+    border: 0.1rem dotted lightgreen;
+    margin: 20 auto;
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+#img_nav {
+    width: 90%;
+    height: 600px;
+    border: 0.1rem dotted lightgreen;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img_nav > div {
+    width: 240px;
+    height: 160px;
+    border: 0.1rem dotted lightgreen;
+    background: rgba(0, 0, 0, 1);
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#img_nav > div > div {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    transition: all 0.5s;
+    border: 1px solid red;
+}
+
+#img_nav > div > div > p {
+    border: 1px solid red;
+    text-indent: 1rem;
+}
+
+#img_nav > div:hover > div {
+    top: 55%;
+}
